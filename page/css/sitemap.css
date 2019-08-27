@@ -1,0 +1,9 @@
+*{margin:0;padding:0;}
+li{list-style: none;}
+.title{text-align: center;font-width: 600;line-height: 50px;font-size: 20px;}
+.link{border:1px solid #eee;padding:10px;margin:0 auto;width:95%;}
+.blog-list{width:95%;border:1px solid #eee;margin:20px auto 0;padding:10px;}
+.blog-list > span{display: block;}
+.blog-list > ul{padding:10px;margin:10px auto;}
+.blog-list > ul > li{margin-top:5px;font-size: 14px;}
+.blog-list > ul > li > a{color: #666}

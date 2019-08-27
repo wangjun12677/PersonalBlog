@@ -1,0 +1,49 @@
+*{margin:0;padding:0;font-size: 14px;color: #333}
+@font-face{font-family: "myIcon";src:url("../font/glyphicons-halflings-regular.woff2")}
+body{background: url("../img/bg.jpg");text-align: center;}
+ul,li{list-style: none}
+a{text-decoration: none;}
+.header{background: #191818;width:100%;height: 50px;}
+.header .container{width:1170px;height: 50px;margin:0 auto;}
+.header .title{display: inline-block;float: left;color: #eee;line-height:50px;font-size: 18px;}
+.menu{float: left;margin-left:3%;}
+.menu li{float: left;line-height: 50px;font-size: 14px;color: #fff;padding:0 20px;}
+.menu li a{display: block;color: #fff;}
+.search-bar{float: right}
+.search-bar > input{display: inline-block;padding:5px 10px;border-radius: 10px;border:0; font-size: 14px;outline: 0;height: 22px;margin-top:9px;}
+.search-bar > button{height: 32px;border-radius: 10px;padding:0 10px;outline: 0}
+.content{width:1170px;margin:30px auto 0;display: inline-block;position: relative;text-align: left;}
+.content-left{width:calc(66% - 20px);float: left;padding-right: 20px;}
+.content-right{width: 34%;float: right}
+
+.right-module{display: block;background-color: #1f1f1f;color: #fff;border-radius: 10px;margin-bottom:10px;color:#48b8cb;overflow: hidden;}
+.right-module > .title{padding:10px 15px;background-color: #191818;color:#48b8cb}
+.right-module > .box{padding:15px;}
+.right-module > .box > a{color:#48b8cb;padding:0 10px; display: inline-block;}
+.right-module > .box > li{line-height: 25px;color: #fff}
+.right-module > .box > li a{color:#fff;}
+.right-module > .box > li > div{padding:5px 0;}
+.right-module > .box > li > div >span{color: #fff;}
+.pull-right{float: right;}
+.right-module > .box > li > p{color: #777;}
+.right-module > .box > .link{width:48%;color: #fff;display: inline-block;line-height: 30px;    border-bottom: 1px solid #292929;}
+
+footer{padding: 20px 0;
+    color: #a2a2a2;
+    text-align: center;
+    background-color: #191818;
+    border-top: 1px solid #e5e5e5;}
+footer > ul > li{    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;}
+footer a{    color: #a2a2a2;}
+footer > p{margin-top:10px;color: #a2a2a2;}
+
+.page-tool{margin-top:30px;text-align: center;margin-bottom:20px;}
+.page-tool > ul > li{display: inline-block; margin:0 5px;
+width:40px;height: 40px;background: #a2a2a2;line-height: 40px;color: #fff;cursor: pointer;}
+.page-tool > ul > li:hover{background: #004444}
+.now_page{background: #1f1f1f !important;}
+
+
+

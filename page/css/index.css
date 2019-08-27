@@ -1,0 +1,9 @@
+.every-day{background-color: #f5f5f5;;border-radius:4px;padding:20px;    box-shadow: 1px 1px 10px #5f5f5f;}
+.every-day > span{margin-bottom:5px;display: block}
+.every-day > span:after{font-family: myIcon;content: "\e122";margin-left:10px;}
+
+.article{margin-top:30px;background-color: #fff;border-radius:4px;    box-shadow: 0 1px 1px rgba(0,0,0,.05);overflow: hidden}
+.article-title{font-size: 20px;padding:20px 20px 10px;display: block;color: #333}
+.article-title:hover{ color: #337ab7;}
+.article-content{padding:0 20px 20px;}
+.article-foot{line-height: 30px;padding:0 20px;background-color:#1f1f1f;color: #fff;}
