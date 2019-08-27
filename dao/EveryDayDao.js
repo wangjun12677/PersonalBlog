@@ -1,4 +1,4 @@
-var dbutil = require("./dbUtil");
+var dbutil = require("./DBUtil");
 function inserEveryDay(content,ctime,success){//向数据库增加
     var insertSql = "insert into every_day (`content`, `ctime`) values (?, ?)";
     var params = [content,ctime];

@@ -19,6 +19,5 @@ for(var i = 0; i < files.length; i++){
 
     }
 }
-// console.log(pathMap)
-// console.log(controllerSet)
+
 module.exports = pathMap;//导出web页面下的每个文件的数据请求函数 不重复

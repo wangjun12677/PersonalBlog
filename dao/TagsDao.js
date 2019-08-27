@@ -1,4 +1,4 @@
-var dbutil = require("./dbUtil");
+var dbutil = require("./DBUtil");
 function insertTag(tag,ctime,utime,success){//向数据库增加
     var insertSql = "insert into tags (`tag`, `ctime`, `utime`) values (?, ?, ?)";
     var params = [tag,ctime,utime];

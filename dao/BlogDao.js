@@ -1,4 +1,4 @@
-var dbutil = require("./dbUtil");
+var dbutil = require("./DBUtil");
 function queryBlogCount(success) {
     var querySql = "select count(1) as count from blog;";
     var params = [];
